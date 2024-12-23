@@ -1,0 +1,685 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*----------------------------------Nav-bar-------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar .logo {
+  color:rgb(73, 73, 251);
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #100d0d;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: #fcf1f1;
+  }
+
+  .nav-links li {
+      text-align: center;
+      margin: 10px 0;
+  }
+
+  .burger {
+      display: block;
+  }
+}
+
+/*-----------------------------------------------000------------------------------*/
+body{
+    overflow-x: hidden;
+}
+#container{
+    padding: 30px 5px;
+}
+#top-col-1{
+    justify-content: center;
+    padding: 10px 10px;
+}
+#top-col-1 h2{
+    justify-content: center;
+    color: BROWN;
+    text-align: center;
+    align-items: center;
+    font-size: 47px;
+    font-style: var(#0f68d4);
+}
+#top-col-1 div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#top-col-1 div h1{
+    padding: 0px 15px;
+}
+
+.logo{
+    display: flex;
+    padding: 15px 20px;
+}
+.top-container-1{
+    display: flex;
+    margin-left: 100px;
+}
+.top-container-1,i{
+    padding-left:90px;
+    font-size: 25px;
+}
+.top-div-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 38px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px;
+}
+.header nav a{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px 15px;
+    margin-left: 30px;
+    color:#3F3D3D;
+    font-weight: bold;
+}
+.header nav a:hover{
+  color:black;
+}
+#nav-button{
+    width: 100px;
+    height: auto;
+    background-color: rgb(33, 33, 33);
+    border-radius: 18px;
+}
+#nav-button-1{
+    width: 100px;
+    height: auto;
+    background-color: rgb(33, 33, 33);
+    border-radius: 18px;
+}
+#nav-button:hover{
+    background-color:#fff;
+    color: black;
+}
+#nav-button-1:hover{
+    background-color:#fff;
+    color: black;
+}
+#nav-btn button{
+  gap: 8px;
+}
+.learning-image-show{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0px;
+}
+.learning-image-show img{
+    height: 500px;
+    width: auto;
+}
+
+/* -------------------------------------Main-contant---------------------------------*/
+#homemain {
+  width: 100%;
+  padding: 4rem 4rem;
+}
+.main-content,h2{
+  margin-top: 10px;
+}
+.main-content{
+  background-image: url(kids.scienc1.jpg);
+  background-size: cover;
+  object-fit: cover;
+}
+.main-content h2{
+  color: BROWN;
+  padding: 10px 10px;
+  margin-left: 20px;
+  text-align: right;
+}
+
+#homemain,h1 {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+  letter-spacing: -.1vw;
+  font-size:35px;
+}
+
+.headings,
+h3 {
+  font-size: 7vw;
+  font-weight: 900;
+  letter-spacing: -1px;
+  color: transparent;
+  -webkit-text-stroke: 1.2px #000;
+}
+
+#homelast p{
+  font-size: 2vw;
+  letter-spacing: -0.8;
+  font-weight: 400;
+  color:brown;
+}
+
+#home {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/*-----------------------------------Some course-------------------------------*/
+#content-heading{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #8A7B7B;
+   
+}
+#btn-card{
+    width:auto;
+}
+.card-img-top:hover{
+    transform: scale(.9);
+}
+.col-md-4:hover{
+    border: 2px solid #E2EAF4;
+    border-radius: 8px;
+}
+/*-------------------------------------------Solution-style-------------------------------*/
+#rev{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:black;
+}
+/*-----------------------------------Rrview page-------------------------------*/
+#review-head{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: brown;
+    font-size: 35px;
+}
+
+/*-----------------------------------Connect with me -------------------------------*/
+#connect-with-me{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #6F6ADA;
+}
+#connect{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px 0px;
+    display: flex;
+}
+.connect-container{
+    margin-right: 0px;
+    padding: 35px 70px;
+    width:auto;
+}
+.connect-other{
+    border: 1px solid ;
+    height: 40px;
+    padding: 10px 0px;
+   
+}
+.connect-content-container{
+    background-color: #EFC3CA;
+    border: 1px solid ;
+    padding: 15px 0;
+    border: none 1px solid black;
+    box-shadow: 1px 1px 20px rgb(240, 110, 131);
+    border-radius: 40px;
+    padding: 10px 10px;
+    width: 300px;
+}
+.connect-content-container:hover{
+    background-color:#aaf4f7;
+    box-shadow: 1px 1px 20px aqua;
+}
+.connect-content-container h3{
+    padding: 15px 0px;
+}
+#connect-other{
+   margin-top: 20px;
+    border-radius: 8px;
+    width: 100px;
+    color:#351D1D;
+}
+#connect-other:hover{
+ 
+    color: #0f68d4;
+}
+/*------------------Login-Design------------------------------*/ 
+form {
+    border: 3px solid #f1f1f1;
+    padding: 20px 40px ;
+  }
+  .imgcontainer{
+    height: 100px;
+    width:auto;
+  }
+  
+  
+  input[type=text], input[type=password] {
+    width:75%;
+    padding: 12px 20px;
+    margin: 8px 15%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  #remember{
+    margin: 8px 25%;
+  }
+  
+ 
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 15%;
+    border: 1px solid pink;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 45%;
+  }
+  
+ 
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  
+  .container {
+    padding: 16px 40px;
+   
+  }
+  
+  @media screen and (max-width: 600px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+/*------------------Sign up-Design------------------------------*/ 
+
+#sign-up-container{
+  background-image: url(sign-up.jpeg);
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .9;
+}
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+ 
+  .container {
+    padding: 16px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
+/* -------------------------------------Contact-style--------------------------*/
+.contact-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color:#CECECE;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+}
+.contact-container h1 {
+  color: #333;
+}
+.contact-container p {
+  color: #666;
+}
+.contact-info {
+  margin-top: 20px;
+}
+.contact-info a {
+  display: block;
+  color: #007BFF;
+  list-style: none;
+  text-decoration: none;
+  margin: 5px 0;
+  transition: color 0.3s;
+}
+.contact-info a:hover {
+  color: #0056b3;
+  list-style: none;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+/*-------------------------------------------Solution-style-------------------------------*/
+.solution-top{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.working{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: red;
+}
+/*-------------------------------------------Video-style-------------------------------*/
+.video h1{
+    padding: 50px 0px;
+    color: gray;
+}
+.video{
+  display: flex;
+}
+.video-container h3{
+    padding: 15px 0px;
+}
+.video-container h5 i{
+    margin-top: 11rem;
+    margin-left: 3rem;
+}
+/*-------------------------------------------About-style-------------------------------*/
+.about-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #E2EAF4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.about-container h1 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 8px 0 0;
+  object-fit: cover;
+}
+.card h2 {
+  color: #333;
+  margin: 10px 0;
+  justify-content: center;
+  align-items: center;
+}
+.card p {
+  color: #666;
+}
+/*-------------------------------------------Course-style-------------------------------*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f7f7f7;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  color: #090909;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.course-description {
+  background-color:#cbdfdd;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.course-description:hover{
+  transform: scale(.9);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: rgb(137, 133, 133);
+  color: white;
+}
+.course-outline{
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.course-resources{
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.course-description h2{
+  text-align: center;
+  font-weight: 600;
+}
+
+.what-youll-learn {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.course-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course-card {
+  background-color: #7396b8;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 20px;
+  width: 250px;
+  transition: all 0.3s ease-in-out;
+}
+.course-card h3{
+  color:#fff;
+  font-weight: 600;
+}
+.course-card:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: color-mix(in srgb, gray 70%, pink 30%);
+  color: white;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+/*-------------------------------------------Devloped------------------------------------*/
+.developed{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color:#000;
+  font-weight: 900;
+  font-size: 16px;
+  padding: 20px 0px;
+}
